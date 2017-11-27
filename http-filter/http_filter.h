@@ -30,7 +30,7 @@ private:
   StreamDecoderFilterCallbacks* decoder_callbacks_{nullptr};
   StreamEncoderFilterCallbacks* encoder_callbacks_{nullptr};
 
-  Http::HeaderMap* response_headers_{nullptr};
+  // Http::HeaderMap* response_headers_{nullptr};
 
   const LowerCaseString& headerKey();
   const std::string& headerValue();
